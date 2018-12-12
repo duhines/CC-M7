@@ -49,6 +49,6 @@ class Setting:
 		Purpose: change the current location in the story to another location
 		in the setting
 		"""
-		
+		self.current_location = new_location
 
 

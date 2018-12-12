@@ -17,5 +17,5 @@ will give characters quests by introducing random events.
 """
 
 class Quest:
-	def __init__(self, name):
-		self.name = name
+	def __init__(self, statement):
+		self.statement = statement
