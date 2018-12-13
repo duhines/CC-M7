@@ -40,9 +40,9 @@ Literature Used:
 * de Lima, Edirlei S., Bruno Feijó, and Antonio L. Furtado. "Player Behavior and Personality Modeling for Interactive Storytelling in Games." Entertainment Computing, vol. 28, 2018, pp. 32-48.
 
 Resources used for the knowledge base:
-locations:
-* from the wikipedia page for towns in texas (https://en.wikipedia.org/wiki/List_of_cities_in_Texas)
-names from:
-* boys names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-boys-names-so-far-in-2018)
-* girls names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-girls-names-so-far-in-2018
+* locations:
+	* from the wikipedia page for towns in texas (https://en.wikipedia.org/wiki/List_of_cities_in_Texas)
+* names from:
+	* boys names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-boys-names-so-far-in-2018)
+	* girls names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-girls-names-so-far-in-2018
 
