@@ -2,11 +2,6 @@
 Final Project for Computational Creativity Fall 2018.
 
 System names: personalixca
-inspired by the MEXICA system 
-locations from the wikipedia page for towns in texas (https://en.wikipedia.org/wiki/List_of_cities_in_Texas)
-names from:
-	- boys names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-boys-names-so-far-in-2018)
-	-girls names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-girls-names-so-far-in-2018
 
 1. Overview: 
 	My system is called _personalixca_ in reference to the MEXICA system that inspired how the narrative is crafted and one of the features that I focused on: personality modeling.  Script writing is an intensely complicatd problem and I made some simplifying assumptions in order to make the problem more manageable.  Thus, the scripts are represented as a simple sequence of actions taken by the characters.  The script generation process has three main components represented by different modules:  character.py, narrator.py, and action.py.  In general, the narrator module keeps track of the locations and characters in the narrative and uses the character module (which draws on the action module) to add actions to the narrative.  I focused on trying to model character personalities and social connections between characters, so for simplicity there are only two actions that involve an interaction between one character and other (one negative and one positive interaction).  Overall, this system does not produce particularly interesting artifacts, but is a solid base for expansion in future work. 
@@ -37,4 +32,17 @@ names from:
 5. 
 	This was an extremely tough project for me to feel succesful in.  Trying to balance creating an interesting system while not being overly ambitious was extremely hard.  I ended up deleting some modules representing ideas that I didn't have time to work on or realized would introduce too much complexity.  My choices for system design were heavily influenced by the two papers mentioned in the system architecture section--the process of looking into ideas from literature to inspire how I would approach a problem has been new to me in this class.  The process of being pretty stumped and unsure about how to aproach a problem and then reading about other approaches for inspiration has been something that I have enjoyed in this class.  It is somewhat empowering to know that at the very least, for most problems in computer science, I can go spend 4-5+ hours reading papers and then have a somewhat reasonable idea of how to approach it.  This realization has been a major take away from this project and also this class in general.  I did not really use any computer science techniques that were new to me and this leads me to the strange part of this project.  I did try to model two different interesting parts of narrative--character personality and social connections between characters--but I didn't push the system far enough to take these ideas and put them in something I can confidently say is creative.  I think that if I added some additional systems on top of what I made including inspiration and a step after the narrative construction that turns the narrative into a more convincing script, then the system would have more merit.  Thus, at this point I have ended up feeling like I spent a lot of time thinking about and creating a system that is more of a base for making an intesting and creative system than being a creative system itself.  
 	
+
+Literature Used:
+	Findings from Metropolitan Autonomous University in the Area of Cognition Research Reported (A Computer-Based Model for Collaborative Narrative Generation). NewsRX LLC, 2015.
+
+	de Lima, Edirlei S., Bruno Feijó, and Antonio L. Furtado. "Player Behavior and Personality Modeling for Interactive Storytelling in Games." Entertainment Computing, vol. 28, 2018, pp. 32-48.
+
+Resources used for the knowledge base:
+
+	locations:
+	- from the wikipedia page for towns in texas (https://en.wikipedia.org/wiki/List_of_cities_in_Texas)
+	names from:
+	- boys names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-boys-names-so-far-in-2018)
+	- girls names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-girls-names-so-far-in-2018
 
