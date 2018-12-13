@@ -34,12 +34,10 @@ System names: personalixca
 	
 
 Literature Used:
-	Findings from Metropolitan Autonomous University in the Area of Cognition Research Reported (A Computer-Based Model for Collaborative Narrative Generation). NewsRX LLC, 2015.
-
-	de Lima, Edirlei S., Bruno Feijó, and Antonio L. Furtado. "Player Behavior and Personality Modeling for Interactive Storytelling in Games." Entertainment Computing, vol. 28, 2018, pp. 32-48.
+	- Findings from Metropolitan Autonomous University in the Area of Cognition Research Reported (A Computer-Based Model for Collaborative Narrative Generation). NewsRX LLC, 2015.
+	- de Lima, Edirlei S., Bruno Feijó, and Antonio L. Furtado. "Player Behavior and Personality Modeling for Interactive Storytelling in Games." Entertainment Computing, vol. 28, 2018, pp. 32-48.
 
 Resources used for the knowledge base:
-
 	locations:
 	- from the wikipedia page for towns in texas (https://en.wikipedia.org/wiki/List_of_cities_in_Texas)
 	names from:
