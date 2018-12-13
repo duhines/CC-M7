@@ -8,9 +8,16 @@ names from:
 	- boys names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-boys-names-so-far-in-2018)
 	-girls names: http://www.bounty.com/pregnancy-and-birth/baby-names/top-baby-names/100-most-popular-girls-names-so-far-in-2018
 
-1. Overview: 1 paragraph that describes your system. State the system's name and why it's called so, as well as the main components of the system and the algorithms behind them.
+1. Overview: 
+	
+	1 paragraph that describes your system. State the system's name and why it's called so, as well as the main components of the system and the algorithms behind them.
 
-2. Setup: Step-by-step instructions for how to run your code, including any dependencies, versions, and so on.
+
+
+2. Setup:
+	1. To generate a script, run the `python3 narrator.py` command.
+	2. The character and setting names can be chanced by modifying the 
+	cleaned_names and cleaned_locations files in the knowledge folder.
 
 3. System Architecture: A more detailed account of your system (at least 4 paragraphs) and its components. You should clearly describe what components of script generation that you chose to focus on (e.g., agent personality modeling, dialogue generation, narrative prose generation, suspense modeling, conflict modeling, musical lyric generation, humor and sarcasm modeling, visual animation, computational cinematography…), citing scholarly work as appropriate. Include a block diagram of your system architecture.
 ![alt text](https://github.com/duhines/CC-M7/blob/master/personalixca.png "Diagram of System Architecture")
