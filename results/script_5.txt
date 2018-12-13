@@ -1,0 +1,38 @@
+We begin our story in Elgin.  
+ANNA is neither good nor evil and very lawful.
+HARRY is neither good nor evil and very lawful.
+VICTORIA is neither good nor evil and very lawful.
+ELLIOT is sort of good and very chaotic.
+SOPHIE is sort of good and neither lawful nor chaotic.
+REGGIE is sort of good and chaotic.
+MILLIE is neither good nor evil and neither lawful nor chaotic.
+EVELYN is good and very lawful.
+LUCAS is sort of good and neither lawful nor chaotic.
+LILLY is neither good nor evil and neither lawful nor chaotic.
+We now shift our attention to Park
+MILLIE injures ELLIOT because MILLIE made a mistake.
+ELLIOT significantly heals LUCAS because ELLIOT feels brotherly love towards LUCAS.
+EVELYN significantly heals LUCAS because EVELYN is lawful.
+EVELYN injures LILLY because EVELYN made a mistake.
+MILLIE significantly injures EVELYN because MILLIE feels brotherly hate towards EVELYN.
+ELLIOT injures MILLIE because ELLIOT is chotic.
+MILLIE injures ELLIOT because MILLIE made a mistake.
+LILLY sleeps to regain some strength.
+ELLIOT heals EVELYN because ELLIOT feels brotherly love towards EVELYN.
+ELLIOT travels to Dickinson
+EVELYN injures MILLIE because EVELYN feels lover's hate towards MILLIE.
+MILLIE significantly injures EVELYN because MILLIE feels brotherly hate towards EVELYN.
+MILLIE injures ANNA because MILLIE feels brotherly hate towards ANNA.
+EVELYN injures MILLIE because EVELYN feels brotherly hate towards MILLIE.
+EVELYN injures MILLIE because EVELYN feels brotherly hate towards MILLIE.
+MILLIE injures LUCAS because MILLIE made a mistake.
+LILLY injures ANNA because LILLY feels brotherly hate towards ANNA.
+MILLIE significantly injures ANNA because MILLIE feels brotherly hate towards ANNA.
+LILLY travels to Camp
+EVELYN significantly injures LUCAS because EVELYN feels brotherly hate towards LUCAS.
+MILLIE injures LUCAS because MILLIE made a mistake.
+EVELYN heals ANNA because EVELYN is lawful.
+MILLIE sleeps to regain some strength.
+MILLIE travels to Kinney
+EVELYN significantly heals LUCAS because EVELYN is lawful.
+And thus ends the episode.

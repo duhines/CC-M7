@@ -1,0 +1,50 @@
+We begin our story in Galena.  
+EMMA is sort of evil and chaotic.
+NOAH is very evil and very lawful.
+AARON is neither good nor evil and chaotic.
+LEWIS is evil and sort of chaotic.
+SEBASTIAN is neither good nor evil and sort of chaotic.
+JACKSON is neither good nor evil and very lawful.
+DANIEL is evil and sort of lawful.
+RILEY is neither good nor evil and sort of lawful.
+DARCEY is neither good nor evil and neither lawful nor chaotic.
+GRACE is sort of good and neither lawful nor chaotic.
+We now shift our attention to Andrews
+We now shift our attention to DumasCounty
+We now shift our attention to Bishop
+EMMA significantly injures DARCEY because EMMA is chotic.
+EMMA injures DARCEY because EMMA is chotic.
+EMMA significantly heals NOAH because EMMA made a mistake.
+EMMA travels to Andrews
+We now shift our attention to Andrews
+EMMA travels to DumasCounty
+We now shift our attention to Bishop
+We now shift our attention to DumasCounty
+EMMA significantly injures JACKSON because EMMA is chotic.
+EMMA heals GRACE because EMMA feels brotherly love towards GRACE.
+EMMA heals DANIEL because EMMA feels brotherly love towards DANIEL.
+EMMA significantly heals GRACE because EMMA feels brotherly love towards GRACE.
+EMMA heals DANIEL because EMMA feels brotherly love towards DANIEL.
+EMMA travels to Amherst
+We now shift our attention to Amherst
+EMMA significantly heals RILEY because EMMA made a mistake.
+EMMA injures RILEY because EMMA is chotic.
+EMMA sleeps to regain some strength.
+EMMA injures RILEY because EMMA is chotic.
+EMMA significantly heals RILEY because EMMA made a mistake.
+EMMA travels to Andrews
+We now shift our attention to DumasCounty
+We now shift our attention to Bishop
+We now shift our attention to Andrews
+EMMA sleeps to regain some strength.
+EMMA injures SEBASTIAN because EMMA is chotic.
+EMMA significantly heals LEWIS because EMMA made a mistake.
+EMMA travels to Bishop
+We now shift our attention to Amherst
+We now shift our attention to DumasCounty
+We now shift our attention to Bishop
+EMMA injures DARCEY because EMMA is chotic.
+EMMA significantly injures DARCEY because EMMA is chotic.
+EMMA sleeps to regain some strength.
+EMMA injures AARON because EMMA is chotic.
+And thus ends the episode.

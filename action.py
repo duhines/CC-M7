@@ -4,28 +4,36 @@ Course: Computational Creativity Fall 2018
 Project: M7: Playing with Words
 Date: last modified 12/13
 Description:
-
+	Class that allows characters to act.  
+	Includes the following classes:
+		Actions -
+			used to store and initialize all the actions
+		Travel -
+			implements the possibilities and consequences of a traveling in the
+			world
+		Injure - 
+			implements the consequences of one character injuring another
+		Heal - 
+			implements the consequences of one character injuring another
+		Sleep - 
+			implements the consequences of one character sleeping
 Notes:
+	Any class implementing an action is expected to have a do() method that
+	does any book-keeping associated with the action being performed and
+	returns a string representing the consequences of the action.
+	
+	Any action that involves one character impacting another will need to 
+	be initialized for all the possible recipients of the action in the 
+	get_actions function in Actions.
 
+	The path_finding function for the Traveling class currently assumes that
+	all the places are connected--this would need to be update with some kind
+	of path finding algorithm if every location was not connected to every 
+	other location. 
 
+	Sometimes, the justification function will be called when the clauses in
+	question are all false.  No idea why this happens, but it shoudn't.
 """
-
-# class Action: 
-# 	"""
-# 	name 
-# 	"""
-# 	def __init__(self, name, personality, pre_conditions, post_conditions, impact, characters, num_characters):
-# 		self.num_characters = num_characters
-# 		self.name = name
-# 		# list of characters involved in the action in logical order 
-# 		self.characters = characters
-# 		# the personality values typical of this kind of action
-# 		self.personality = personality # personality is defined as a range for each
-# 		# personality attribute where this act is appropiate for a personality with
-# 		# values falling into that range
-# 		self.pre_conditions = pre_conditions
-# 		self.post_conditions = post_conditions
-# 		self.impact = impact
 
 
 import random
@@ -33,6 +41,11 @@ from random import choice
 
 
 class Actions:
+	"""
+	Class used to store all the actions available to a character.
+	Implements the following method:
+		get_actions
+	"""
 	def __init__(self, character, locations, characters, nearby_characters, social_network):
 		self.character = character
 		self.locations = locations
@@ -43,7 +56,7 @@ class Actions:
 
 	def get_actions(self):
 		"""
-		Purpose: return the actions for a character
+		Purpose: return the actions available for a character
 		"""
 		# get list of characters that the acting character can interact with
 		other_characters = self.nearby_characters.copy()
@@ -54,6 +67,8 @@ class Actions:
 		actions.append(Travel(self.character, self.locations))
 		actions.append(Sleep(self.character))
 
+		# since we can heal/injure other characters, we need an action for each 
+		# possible character that can be a recipient of one of these actions
 		for character2 in other_characters:
 			actions.append(Injure(self.character, character2, self.social_network))
 			actions.append(Heal(self.character, character2, self.social_network))
@@ -61,8 +76,10 @@ class Actions:
 		return actions
 
 
-# create a class for all the actions
 class Travel:
+	"""
+	Class that implements a traveling action.  
+	"""
 	def __init__(self, character, locations):
 		self.character = character
 		self.locations = locations
@@ -101,16 +118,19 @@ class Travel:
 
 
 class Injure:
+	"""
+	Class that implements the injure action.
+	"""
 	def __init__(self, character1, character2, social_network):
 		self.character1 = character1
 		self.character2 = character2
 		self.social_network = social_network
-		clause1 = self.character1.personality.lawful_chaotic < -.5
-		clause2 = self.character1.personality.good_evil < -.5
-		clause3 = self.social_network.get_connection(character1, character2).brotherly < -1
-		clause4 = self.social_network.get_connection(character1, character2).lovers < -1
-		clause5 = self.character2.health > 1
-		self.pre_condition = (clause1 or clause2 or clause3 or clause4) and clause5
+		self.clause1 = character1.personality.lawful_chaotic < -.5
+		self.clause2 = character1.personality.good_evil < -.5
+		self.clause3 = social_network.get_connection(character1, character2).brotherly < -1
+		self.clause4 = social_network.get_connection(character1, character2).lovers < -1
+		self.clause5 = character2.health > 1
+		self.pre_condition = (self.clause1 or self.clause2 or self.clause3 or self.clause4) and self.clause5
 
 	def do(self):
 		"""
@@ -121,25 +141,46 @@ class Injure:
 		self.character2.health -= damage
 		if damage < 30:
 			self.social_network.get_connection(self.character2, self.character1).adjust_all(-1)
-			return '{} injures {}.'.format(self.character1.name, 
-				self.character2.name)
+			return '{} injures {} because {}.'.format(self.character1.name, 
+				self.character2.name, self.get_justification())
 		else:
 			self.social_network.get_connection(self.character2, self.character1).adjust_all(-2)
-			return '{} significantly injures {}.'.format(
+			return '{} significantly injures {} because {}.'.format(
+				self.character1.name, self.character2.name, self.get_justification())
+
+	def get_justification(self):
+		"""
+		Purpose: return a string representing the clause that allowed this
+		action to happen.
+		"""
+		if self.clause1:
+			return '{} is chotic'.format(self.character1.name)
+		elif self.clause2:
+			return '{} is evil'.format(self.character1.name)
+		elif self.clause3:
+			return '{} feels brotherly hate towards {}'.format(
 				self.character1.name, self.character2.name)
+		elif self.clause4:
+			return '{} feels lover\'s hate towards {}'.format(
+				self.character1.name, self.character2.name)
+		else:
+			return '{} made a mistake'.format(self.character1.name)
 
 
 class Heal:
+	"""
+	Class for the heal action.
+	"""
 	def __init__(self, character1, character2, social_network):
 		self.character1 = character1
 		self.character2 = character2
 		self.social_network = social_network
-		clause1 = self.character1.personality.lawful_chaotic > .5
-		clause2 = self.character1.personality.good_evil > .5
-		clause3 = self.social_network.get_connection(self.character1, self.character2).brotherly > 1
-		clause4 = self.social_network.get_connection(self.character1, self.character2).lovers > 1
-		clause5 = self.character2.health < 100 and self.character2.health > 0
-		self.pre_condition = (clause1 or clause2 or clause3 or clause4) and clause5
+		self.clause1 = character1.personality.lawful_chaotic > .5
+		self.clause2 = character1.personality.good_evil > .5
+		self.clause3 = social_network.get_connection(character1, character2).brotherly >= 1
+		self.clause4 = social_network.get_connection(character1, character2).lovers >= 1
+		self.clause5 = character2.health < 100 and self.character2.health > 0
+		self.pre_condition = (self.clause1 or self.clause2 or self.clause3 or self.clause4) and self.clause5
 
 	def do(self):
 		"""
@@ -149,13 +190,37 @@ class Heal:
 		self.character2.health += heal
 		if heal < 30:
 			self.social_network.get_connection(self.character2, self.character1).adjust_all(1)
-			return '{} heals {}.'.format(self.character1.name, self.character2.name)
+			return '{} heals {} because {}.'.format(self.character1.name, 
+				self.character2.name, self.get_justification())
 		else:
 			self.social_network.get_connection(self.character2, self.character1).adjust_all(2)
-			return '{} significantly heals {}.'.format(self.character1.name, self.character2.name)
+			return '{} significantly heals {} because {}.'.format(
+				self.character1.name, self.character2.name, self.get_justification())
 
+	def get_justification(self):
+		"""
+		Purpose: return a string representing the clause that allowed this
+		action to happen.
+		"""
+
+		if self.clause1:
+			return '{} is lawful'.format(self.character1.name)
+		elif self.clause2:
+			return '{} is good'.format(self.character1.name)
+		elif self.clause3:
+			return '{} feels brotherly love towards {}'.format(
+				self.character1.name, self.character2.name)
+		elif self.clause4:
+			return '{} feels lover\'s love towards {}'.format(
+				self.character1.name, self.character2.name)
+		else:
+			return '{} made a mistake'.format(self.character1.name)
+	
 
 class Sleep:
+	"""
+	Class for the sleep action.  
+	"""
 	def __init__(self, character):
 		self.character = character
 		self.pre_condition = self.character.health > 20

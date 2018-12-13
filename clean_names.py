@@ -1,4 +1,16 @@
+"""
+Author: Dustin Hines
+Course: Computational Creativity Fall 2018
+Project: M7: Playing with Words
+Date: last modified 12/13
+Description:
+	This is a script to clean names.  The names are from the top 100 boys
+	and girls names from 2018 from bounty.com
 
+Notes: 
+	Assumes the format of the original names file has the name first on 
+	each line.
+"""
 file = open('knowledge/names.txt')
 
 cleaned = []

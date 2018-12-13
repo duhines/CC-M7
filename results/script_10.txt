@@ -1,0 +1,37 @@
+We begin our story in Cushing.  SOFIA is here.  ARIA is here.  JOSHUA is here.  RORY is here.  THEODORE is here.  ELIJAH is here.  ISLA is here.  FRANKIE is here.  
+SOFIA is sort of good and chaotic.
+ARIA is sort of evil and sort of lawful.
+FINLEY is very good and very lawful.
+JOSHUA is evil and sort of chaotic.
+RORY is neither good nor evil and sort of chaotic.
+THEODORE is very good and lawful.
+ELIJAH is neither good nor evil and sort of chaotic.
+EVA is neither good nor evil and very chaotic.
+ISLA is very evil and very lawful.
+FRANKIE is neither good nor evil and sort of lawful.
+RORY significantly heals THEODORE because RORY feels brotherly love towards THEODORE.
+JOSHUA heals THEODORE because JOSHUA feels brotherly love towards THEODORE.
+ELIJAH injures THEODORE because ELIJAH feels lover's hate towards THEODORE.
+ELIJAH sleeps to regain some strength.
+ELIJAH injures FRANKIE because ELIJAH made a mistake.
+ISLA significantly injures ELIJAH because ISLA is evil.
+RORY heals ELIJAH because RORY feels brotherly love towards ELIJAH.
+JOSHUA significantly injures FRANKIE because JOSHUA is evil.
+ELIJAH significantly heals ARIA because ELIJAH feels brotherly love towards ARIA.
+RORY significantly injures FRANKIE because RORY feels brotherly hate towards FRANKIE.
+FRANKIE injures ISLA because FRANKIE feels brotherly hate towards ISLA.
+RORY significantly heals ISLA because RORY feels brotherly love towards ISLA.
+JOSHUA significantly injures ISLA because JOSHUA is evil.
+JOSHUA travels to Del
+ARIA travels to ChildressCounty
+ISLA injures THEODORE because ISLA is evil.
+FRANKIE sleeps to regain some strength.
+ELIJAH injures ISLA because ELIJAH feels brotherly hate towards ISLA.
+ELIJAH injures FRANKIE because ELIJAH made a mistake.
+ELIJAH significantly heals RORY because ELIJAH feels brotherly love towards RORY.
+ISLA injures FRANKIE because ISLA is evil.
+RORY significantly heals SOFIA because RORY feels lover's love towards SOFIA.
+FRANKIE heals ELIJAH because FRANKIE feels brotherly love towards ELIJAH.
+RORY sleeps to regain some strength.
+ELIJAH significantly injures FRANKIE because ELIJAH made a mistake.
+And thus ends the episode.

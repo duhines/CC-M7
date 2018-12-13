@@ -1,0 +1,56 @@
+We begin our story in Ranch.  CLARA is here.  EMMA is here.  
+MAX is sort of good and neither lawful nor chaotic.
+CLARA is neither good nor evil and chaotic.
+SCARLETT is very evil and chaotic.
+GEORGE is sort of good and chaotic.
+ELLIS is good and sort of chaotic.
+TEDDY is evil and sort of lawful.
+ESME is sort of evil and sort of chaotic.
+BEN is very evil and lawful.
+EMMA is evil and neither lawful nor chaotic.
+FINLEY is very good and sort of chaotic.
+We now shift our attention to Pass
+We now shift our attention to Ranch
+We now shift our attention to CrowellCounty
+We now shift our attention to Pass
+We now shift our attention to Bangs
+ELLIS sleeps to regain some strength.
+ELLIS travels to Ranch
+We now shift our attention to Ranch
+ELLIS travels to Pass
+We now shift our attention to Pass
+ELLIS heals SCARLETT because ELLIS is good.
+ELLIS travels to Moore
+We now shift our attention to Ranch
+We now shift our attention to Pass
+We now shift our attention to CrowellCounty
+We now shift our attention to Ranch
+We now shift our attention to Pass
+We now shift our attention to Ranch
+We now shift our attention to CrowellCounty
+We now shift our attention to Ranch
+We now shift our attention to Pass
+We now shift our attention to CrowellCounty
+We now shift our attention to Pass
+We now shift our attention to Moore
+ELLIS significantly injures TEDDY because ELLIS feels brotherly hate towards TEDDY.
+TEDDY injures GEORGE because TEDDY is evil.
+TEDDY injures BEN because TEDDY is evil.
+TEDDY injures ESME because TEDDY is evil.
+ELLIS significantly heals GEORGE because ELLIS is good.
+ELLIS injures GEORGE because ELLIS feels brotherly hate towards GEORGE.
+TEDDY significantly injures ESME because TEDDY is evil.
+ELLIS significantly injures BEN because ELLIS made a mistake.
+TEDDY sleeps to regain some strength.
+ELLIS injures TEDDY because ELLIS feels brotherly hate towards TEDDY.
+ELLIS injures TEDDY because ELLIS feels brotherly hate towards TEDDY.
+TEDDY sleeps to regain some strength.
+ELLIS significantly heals GEORGE because ELLIS is good.
+ELLIS significantly injures ESME because ELLIS made a mistake.
+TEDDY injures BEN because TEDDY is evil.
+ELLIS injures ESME because ELLIS made a mistake.
+TEDDY significantly injures ESME because TEDDY is evil.
+TEDDY injures ESME because TEDDY is evil.
+ELLIS significantly heals MAX because ELLIS is good.
+TEDDY significantly injures GEORGE because TEDDY is evil.
+And thus ends the episode.

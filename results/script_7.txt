@@ -1,0 +1,37 @@
+We begin our story in Tarrant.  ELLIOT is here.  DARCEY is here.  GEORGIA is here.  ISABELLA is here.  MOLLY is here.  JOSHUA is here.  ANNABELLE is here.  
+ELLIOT is good and chaotic.
+BEN is sort of evil and lawful.
+ELIJAH is neither good nor evil and neither lawful nor chaotic.
+DARCEY is very good and neither lawful nor chaotic.
+GEORGIA is good and neither lawful nor chaotic.
+THEA is sort of evil and chaotic.
+ISABELLA is evil and sort of chaotic.
+MOLLY is neither good nor evil and chaotic.
+JOSHUA is neither good nor evil and lawful.
+ANNABELLE is very evil and very lawful.
+GEORGIA sleeps to regain some strength.
+DARCEY significantly injures ISABELLA because DARCEY feels brotherly hate towards ISABELLA.
+ISABELLA injures JOSHUA because ISABELLA is evil.
+DARCEY significantly injures MOLLY because DARCEY feels brotherly hate towards MOLLY.
+ISABELLA sleeps to regain some strength.
+MOLLY significantly heals GEORGIA because MOLLY feels lover's love towards GEORGIA.
+MOLLY significantly heals JOSHUA because MOLLY feels brotherly love towards JOSHUA.
+ISABELLA heals ANNABELLE because ISABELLA feels brotherly love towards ANNABELLE.
+JOSHUA heals MOLLY because JOSHUA is lawful.
+DARCEY injures ISABELLA because DARCEY feels brotherly hate towards ISABELLA.
+ELLIOT heals ISABELLA because ELLIOT is good.
+ISABELLA injures GEORGIA because ISABELLA is evil.
+DARCEY significantly heals ANNABELLE because DARCEY is good.
+MOLLY sleeps to regain some strength.
+ISABELLA significantly injures JOSHUA because ISABELLA is evil.
+JOSHUA significantly injures ANNABELLE because JOSHUA feels brotherly hate towards ANNABELLE.
+MOLLY heals ELLIOT because MOLLY feels brotherly love towards ELLIOT.
+ELLIOT significantly injures DARCEY because ELLIOT is chotic.
+JOSHUA significantly heals ELLIOT because JOSHUA is lawful.
+GEORGIA heals ISABELLA because GEORGIA is good.
+ANNABELLE injures MOLLY because ANNABELLE is evil.
+ELLIOT travels to Eureka
+GEORGIA significantly heals DARCEY because GEORGIA is good.
+JOSHUA heals MOLLY because JOSHUA is lawful.
+MOLLY significantly injures ISABELLA because MOLLY is chotic.
+And thus ends the episode.

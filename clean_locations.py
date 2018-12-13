@@ -1,7 +1,16 @@
 """
-Purpose:
+Author: Dustin Hines
+Course: Computational Creativity Fall 2018
+Project: M7: Playing with Words
+Date: last modified 12/13
+Description:
 	This script is used to clean the originally copied and pasted location
 	data.  
+Notes:
+	The way that locations are processed, each word of a multi-word location
+	becomes a unique location.  This results in some odd location names, but
+	simplifies the locations by ensuring that all of them are just a single
+	word.  
 """
 
 

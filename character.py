@@ -20,8 +20,17 @@ import action as action_stuff
 
 class Personality: 
 	"""
-	Full good would be a value of 1, Full lawful would be a value of 1
-	Full evil would be a value of -1, full chaotic would be a value of -1
+	Class for representing a character's personality. Personality is quantified
+	similarly to DnD (or the Bowdoin outing club LT exercies) where there are 
+	two personality parameters, one measures a scale of good to evil, and the
+	other measures a scale of lawful to chaotic.  These values are represented
+	on a scale from -1 to 1:
+		full good would be a value of 1, full lawful would be a value of 1
+		full evil would be a value of -1, full chaotic would be a value of -1
+
+	Implements the following methods:
+		rand_personality
+		for_narrative
 	"""
 	def __init__(self):
 		self.good_evil = self.rand_personality()
@@ -42,7 +51,7 @@ class Personality:
 			value = absolute_value
 		return value
 
-	def __str__(self):
+	def for_narrative(self):
 		"""
 		Purpose: return string representation of the personality.
 		"""
@@ -78,8 +87,8 @@ class Personality:
 			lawful = 'lawful'
 		elif self.lawful_chaotic < 1:
 			lawful = 'very lawful'
-		return '{} and {}.'.format(good, lawful)
-		
+		return '{} and {}'.format(good, lawful)
+
 	# This would be a big TODO if there was more time
 	# def adjust_personality(self, demo_good_evil, demo_lawful_chaotic):
 	# 	"""
@@ -100,7 +109,18 @@ class Connection:
 		1. brotherly-love / hate
 		2. lover's-love / hate
 		3. gratefulness / ingratitude
-		4. admiration, respect / disdain, disapproval 
+		4. admiration, respect / disdain, disapproval
+
+	Includes the following methods:
+		init_value
+		adjust_all
+		adjust_brotherly
+		adjust_lovers
+		adjust_gratefulness
+		adjust_admiration
+		normalize_value
+		get_string
+		get_values
 	"""
 	def __init__(self):
 		self.brotherly = self.init_value()
@@ -181,6 +201,12 @@ class Connection:
 		return string.format(self.brotherly, self.lovers, self.gratefulness,
 			self.admiration)
 
+	def get_values(self):
+		"""
+		Purpose: return a list of the 4 connection parameters.
+		"""
+		return [self.brotherly, self.lovers, self.gratefulness, self.admiration]
+
 
 class SocialNetwork:
 	"""
@@ -188,9 +214,12 @@ class SocialNetwork:
 	other characters.
 
 	Use emotional links inspired by the MEXICA system:
-
-	network = [character1_name->character2_name: connection]
-
+		network = [character1_name->character2_name: connection]
+	Includes the following methods:
+		generate_network
+		get_connection
+		for_narrative
+		for_fitness
 	"""
 	def __init__(self, characters):
 		self.characters = characters
@@ -230,8 +259,28 @@ class SocialNetwork:
 					.format(character1.name, character2.name, connection.get_string()))
 		return connection_details
 
+	def for_fitness(self):
+		"""
+		Purpose: return the connection information in a way that's easy to use
+		to evaluate narrative fitness.
+		"""
+		connection_details = []
+		for character1 in self.characters:
+			all_other_characters = self.characters.copy()
+			all_other_characters.remove(character1)
+			for character2 in all_other_characters:
+				connection = self.get_connection(character1, character2)
+				connection_details.append(connection.get_values())
+		return connection_details
 
 class Character:
+	"""
+	Character class that includes the following methods:
+		check_health
+		can_act
+		action_maker
+		tell_personality
+	"""
 	def __init__(self, name, personality, goal, health, location):
 		self.name = name
 		self.personality = personality
@@ -290,7 +339,10 @@ class Character:
 		act = random.choice(all_actions)
 		return act.do()
 
-	def dialogue_maker(self, state):
-		return
+	def tell_personality(self):
+		"""
+		Purpose: return a string epressing this characters personality.
+		"""
+		return '{} is {}.'.format(self.name, self.personality.for_narrative())
 
 

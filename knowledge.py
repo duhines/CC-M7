@@ -4,9 +4,11 @@ Course: Computational Creativity Fall 2018
 Project: M7: Playing with Words
 Date: last modified 12/13
 Description:
-	File to set up knowledge.
+	File to set up knowledge by reading in information from a names and
+	locations file in the knowledge base.  
 Notes:
-
+	Assumes that the names and locations file are a each a series
+	of items separated by a newline.  
 """
 
 
@@ -46,11 +48,3 @@ class Knowledge:
 			locations.append(line.strip())
 
 		return locations
-
-
-def main():
-	test = Knowledge()
-
-
-if __name__ == '__main__':
-	main()

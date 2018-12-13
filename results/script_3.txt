@@ -1,0 +1,40 @@
+We begin our story in Clyde.  LEXI is here.  FRANKIE is here.  
+AMELIA is sort of good and chaotic.
+ARLO is evil and very chaotic.
+LEXI is good and sort of lawful.
+IMOGEN is very good and neither lawful nor chaotic.
+ERIN is sort of evil and neither lawful nor chaotic.
+RYAN is neither good nor evil and sort of chaotic.
+AVA is evil and neither lawful nor chaotic.
+MASON is very good and neither lawful nor chaotic.
+ELIZABETH is very good and neither lawful nor chaotic.
+FRANKIE is very good and very lawful.
+FRANKIE sleeps to regain some strength.
+FRANKIE sleeps to regain some strength.
+FRANKIE sleeps to regain some strength.
+FRANKIE significantly heals LEXI because FRANKIE is lawful.
+FRANKIE travels to Dickinson
+We now shift our attention to Bridgeport
+ERIN sleeps to regain some strength.
+ERIN travels to Clyde
+We now shift our attention to Clyde
+ERIN travels to Dickinson
+We now shift our attention to Dickinson
+ARLO injures AMELIA because ARLO is chotic.
+AMELIA significantly injures ARLO because AMELIA is chotic.
+FRANKIE significantly heals ERIN because FRANKIE is lawful.
+ELIZABETH sleeps to regain some strength.
+ARLO has died.
+ELIZABETH heals IMOGEN because ELIZABETH is good.
+IMOGEN significantly injures AVA because IMOGEN feels lover's hate towards AVA.
+ELIZABETH sleeps to regain some strength.
+ELIZABETH heals AVA because ELIZABETH is good.
+AVA travels to Elmendorf
+IMOGEN significantly heals AMELIA because IMOGEN is good.
+ELIZABETH heals ARLO because ELIZABETH is good.
+ERIN heals AMELIA because ERIN feels brotherly love towards AMELIA.
+ERIN sleeps to regain some strength.
+ELIZABETH injures FRANKIE because ELIZABETH feels lover's hate towards FRANKIE.
+IMOGEN significantly injures FRANKIE because IMOGEN feels brotherly hate towards FRANKIE.
+AMELIA significantly injures FRANKIE because AMELIA is chotic.
+And thus ends the episode.

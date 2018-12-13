@@ -1,0 +1,42 @@
+We begin our story in Mills.  EDWARD is here.  
+EDWARD is sort of good and lawful.
+ORLA is neither good nor evil and neither lawful nor chaotic.
+ARTHUR is neither good nor evil and very chaotic.
+LUCY is neither good nor evil and neither lawful nor chaotic.
+ZOE is very evil and neither lawful nor chaotic.
+NIAMH is very good and neither lawful nor chaotic.
+LUKE is good and chaotic.
+ISABELLA is sort of good and neither lawful nor chaotic.
+RORY is sort of good and very lawful.
+AIDEN is neither good nor evil and neither lawful nor chaotic.
+We now shift our attention to Dalworthington
+LUCY sleeps to regain some strength.
+LUKE injures LUCY because LUKE is chotic.
+LUKE significantly injures LUCY because LUKE is chotic.
+LUCY travels to Mills
+LUKE travels to Dulce
+We now shift our attention to CleburneCounty
+We now shift our attention to Dulce
+LUKE travels to Mills
+We now shift our attention to Mills
+LUKE significantly injures LUCY because LUKE is chotic.
+LUKE injures LUCY because LUKE is chotic.
+LUCY injures LUKE because LUCY feels brotherly hate towards LUKE.
+LUKE has died.
+LUCY sleeps to regain some strength.
+LUCY significantly heals LUKE because LUCY made a mistake.
+LUCY travels to Benbrook
+We now shift our attention to Benbrook
+LUCY heals ORLA because LUCY feels brotherly love towards ORLA.
+LUCY injures ISABELLA because LUCY feels brotherly hate towards ISABELLA.
+ORLA sleeps to regain some strength.
+ZOE significantly injures ORLA because ZOE is evil.
+RORY heals ORLA because RORY is lawful.
+ZOE heals ISABELLA because ZOE feels brotherly love towards ISABELLA.
+ARTHUR significantly injures ISABELLA because ARTHUR is chotic.
+LUCY injures ZOE because LUCY feels lover's hate towards ZOE.
+RORY travels to Dalworthington
+ZOE heals ISABELLA because ZOE feels brotherly love towards ISABELLA.
+ZOE significantly injures LUCY because ZOE is evil.
+ARTHUR significantly injures ZOE because ARTHUR is chotic.
+And thus ends the episode.

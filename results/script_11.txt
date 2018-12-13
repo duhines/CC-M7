@@ -1,0 +1,38 @@
+We begin our story in Everman.  DARCEY is here.  LINCOLN is here.  
+ISABELLE is very good and very chaotic.
+AURORA is neither good nor evil and very lawful.
+TYLER is good and very lawful.
+AMELIE is neither good nor evil and lawful.
+DARCEY is very evil and lawful.
+LINCOLN is very evil and neither lawful nor chaotic.
+JESSICA is very good and sort of lawful.
+LUCY is good and lawful.
+HALLIE is neither good nor evil and sort of chaotic.
+LUCAS is sort of good and sort of chaotic.
+DARCEY sleeps to regain some strength.
+DARCEY travels to River
+LINCOLN travels to Fair
+We now shift our attention to River
+LUCAS injures TYLER because LUCAS feels lover's hate towards TYLER.
+TYLER significantly injures JESSICA because TYLER feels lover's hate towards JESSICA.
+DARCEY sleeps to regain some strength.
+TYLER significantly injures HALLIE because TYLER feels brotherly hate towards HALLIE.
+DARCEY heals TYLER because DARCEY is lawful.
+AMELIE significantly heals JESSICA because AMELIE is lawful.
+LUCY heals DARCEY because LUCY is lawful.
+HALLIE sleeps to regain some strength.
+DARCEY heals LUCY because DARCEY is lawful.
+JESSICA heals TYLER because JESSICA is good.
+TYLER heals JESSICA because TYLER is lawful.
+LUCAS significantly injures JESSICA because LUCAS feels lover's hate towards JESSICA.
+LUCAS heals AMELIE because LUCAS feels brotherly love towards AMELIE.
+LUCY significantly heals TYLER because LUCY is lawful.
+DARCEY injures JESSICA because DARCEY is evil.
+DARCEY significantly injures LUCY because DARCEY is evil.
+AMELIE heals HALLIE because AMELIE is lawful.
+LUCY significantly heals JESSICA because LUCY is lawful.
+LUCAS has died.
+JESSICA significantly injures TYLER because JESSICA feels brotherly hate towards TYLER.
+JESSICA heals AMELIE because JESSICA is good.
+HALLIE significantly heals LUCAS because HALLIE feels lover's love towards LUCAS.
+And thus ends the episode.

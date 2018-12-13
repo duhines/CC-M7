@@ -1,0 +1,37 @@
+We begin our story in AthensCounty.  JACOB is here.  ISAAC is here.  TOMMY is here.  CHLOE is here.  OLIVER is here.  
+SOPHIE is neither good nor evil and very chaotic.
+JACOB is sort of evil and very chaotic.
+RILEY is neither good nor evil and sort of lawful.
+ISAAC is neither good nor evil and neither lawful nor chaotic.
+NOAH is neither good nor evil and sort of lawful.
+TOMMY is neither good nor evil and chaotic.
+ISABELLE is evil and sort of chaotic.
+CHLOE is neither good nor evil and sort of chaotic.
+OLIVER is very evil and sort of chaotic.
+SUMMER is very evil and neither lawful nor chaotic.
+CHLOE heals OLIVER because CHLOE feels brotherly love towards OLIVER.
+CHLOE injures TOMMY because CHLOE feels brotherly hate towards TOMMY.
+TOMMY injures OLIVER because TOMMY is chotic.
+TOMMY sleeps to regain some strength.
+TOMMY significantly injures JACOB because TOMMY is chotic.
+JACOB injures ISAAC because JACOB is chotic.
+TOMMY significantly injures ISAAC because TOMMY is chotic.
+OLIVER injures CHLOE because OLIVER is evil.
+JACOB injures OLIVER because JACOB is chotic.
+OLIVER significantly injures ISAAC because OLIVER is evil.
+OLIVER injures JACOB because OLIVER is evil.
+CHLOE significantly injures OLIVER because CHLOE made a mistake.
+JACOB has died.
+CHLOE significantly heals JACOB because CHLOE feels lover's love towards JACOB.
+CHLOE injures OLIVER because CHLOE made a mistake.
+TOMMY sleeps to regain some strength.
+OLIVER has died.
+CHLOE significantly injures TOMMY because CHLOE feels brotherly hate towards TOMMY.
+CHLOE sleeps to regain some strength.
+CHLOE heals JACOB because CHLOE feels lover's love towards JACOB.
+CHLOE travels to Hartley
+TOMMY significantly injures OLIVER because TOMMY is chotic.
+TOMMY sleeps to regain some strength.
+TOMMY sleeps to regain some strength.
+TOMMY injures JACOB because TOMMY is chotic.
+And thus ends the episode.

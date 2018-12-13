@@ -1,0 +1,40 @@
+We begin our story in Freestone.  LEO is here.  LEAH is here.  
+BEN is very good and chaotic.
+LOTTIE is neither good nor evil and sort of chaotic.
+THEA is neither good nor evil and neither lawful nor chaotic.
+RORY is good and neither lawful nor chaotic.
+LEO is evil and very chaotic.
+LEAH is very good and very chaotic.
+SOPHIA is evil and very chaotic.
+EVELYN is neither good nor evil and sort of lawful.
+LILY is very good and sort of lawful.
+SAMUEL is sort of evil and very chaotic.
+LEAH sleeps to regain some strength.
+LEAH travels to Clarksville
+We now shift our attention to Clarksville
+LEAH travels to Bardwell
+We now shift our attention to Bardwell
+THEA significantly heals LEAH because THEA feels brotherly love towards LEAH.
+LEAH significantly injures THEA because LEAH is chotic.
+SOPHIA travels to Lakes
+LEAH significantly injures LILY because LEAH is chotic.
+LEAH significantly injures LILY because LEAH is chotic.
+THEA travels to Lakes
+LEAH travels to Freestone
+We now shift our attention to Lakes
+THEA significantly heals RORY because THEA feels lover's love towards RORY.
+EVELYN injures SAMUEL because EVELYN made a mistake.
+BEN significantly injures EVELYN because BEN is chotic.
+THEA injures EVELYN because THEA feels brotherly hate towards EVELYN.
+EVELYN significantly injures RORY because EVELYN made a mistake.
+BEN injures SAMUEL because BEN is chotic.
+SOPHIA significantly injures BEN because SOPHIA is chotic.
+SOPHIA sleeps to regain some strength.
+BEN significantly heals THEA because BEN is good.
+EVELYN significantly injures BEN because EVELYN feels brotherly hate towards BEN.
+SOPHIA heals LOTTIE because SOPHIA feels brotherly love towards LOTTIE.
+SAMUEL significantly injures EVELYN because SAMUEL is chotic.
+SAMUEL significantly injures RORY because SAMUEL is chotic.
+BEN has died.
+THEA significantly heals BEN because THEA feels brotherly love towards BEN.
+And thus ends the episode.
